@@ -1,0 +1,67 @@
+/** Nice font 'Open-Sans' I got from Google. **/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/** Colors **/
+
+/*** GENERAL STYLE ***/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*** INTRO SECTION ***/
+
+#intro-section {
+  height: 80vh;
+  background-image: url('intro-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* bio card */
+#bio-card {
+  width: 275px;
+  padding: 1.5em 0.5em;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-weight: 300;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.20),
+              0 15px 12px rgba(0,0,0,0.17);
+}
+
+#bio-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#bio-pic > img {
+  width: 150px;
+}
+
+/** RESUME SECTION **/
+#resume-parent {
+  padding: 4em 0;
+  background: #EEE;
+}
+
+.resume-child {
+  border: 1px solid #DEE0DE;
+  margin: 1em;
+  background: #FFF;
+  color: #515251;
+}
+
+.div-title {
+  padding: 0.5em;
+  font-size: 1.25em;
+  background: #B4DBE5;
+}
